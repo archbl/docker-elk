@@ -94,7 +94,7 @@ services:
       context: kibana/
       args:
         ELASTIC_VERSION: ${ELASTIC_VERSION}
-    volumes:
+#    volumes:
    #   - ./kibana/config/kibana.yml:/usr/share/kibana/config/kibana.yml:ro
     ports:
       - 5601:5601
